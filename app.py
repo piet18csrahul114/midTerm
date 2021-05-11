@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
-model = pickle.load(open('/content/drive/My Drive/midTerm.pkl','rb'))
+model = pickle.load(open('midTerm.pkl','rb'))
 
 dataset = pd.read_csv('rahul PIET18CS114 - Classification Dataset1.csv')
 dataset=dataset.drop(['Surname'], axis = 1)
